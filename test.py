@@ -1,1 +1,3 @@
-print("printme test")
+test = input("test input here:  ")
+
+print(f"{test.capitalize()}")
