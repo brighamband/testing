@@ -16,7 +16,6 @@ def main():
     user2 = User(username="gamer101", password="maddenfifa", email="insomnia@gmail.com")
 
     user1.print_info()
-    print()
     user2.print_info()
 
 if __name__ == "__main__":
