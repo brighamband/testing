@@ -16,8 +16,7 @@ class User {
         }
 };
 
-int main()
-{
+int main() {
     User user("billy", 22);
     
     cout << user.toString();
