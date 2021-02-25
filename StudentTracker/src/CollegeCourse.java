@@ -1,14 +1,14 @@
 public class CollegeCourse {
-    private String courseID;
+    private String courseId;
     private int creditHours;
     private char letterGrade;
 
-    public String getCourseID() {
-        return courseID;
+    public String getCourseId() {
+        return courseId;
     }
 
-    public void setCourseID(String courseID) {
-        this.courseID = courseID;
+    public void setCourseId(String courseId) {
+        this.courseId = courseId;
     }
 
     public int getCreditHours() {

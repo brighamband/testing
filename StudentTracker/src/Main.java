@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        final int NUM_STUDENTS = 1;//10;
-        final int NUM_COURSES = 1;//s5;
+        final int NUM_STUDENTS = 10;
+        final int NUM_COURSES = 5;
         Student[] students = new Student[NUM_STUDENTS];
         Scanner scanner = new Scanner(System.in);
         boolean isValidInput = true;
@@ -23,7 +23,7 @@ public class Main {
 
                 // Input course ID
                 System.out.print("\tEnter course ID #" + (j + 1) + ":  ");
-                course.setCourseID(scanner.next());
+                course.setCourseId(scanner.next());
 
                 // Input credit hours
                 do {
@@ -69,7 +69,7 @@ public class Main {
 
             for (int j = 0; j < NUM_COURSES; j++) {
                 CollegeCourse curCourse = students[i].getCourse(j);
-                System.out.println("\tCourse #" + (j + 1) + " ID:  " + curCourse.getCourseID());
+                System.out.println("\tCourse #" + (j + 1) + " ID:  " + curCourse.getCourseId());
                 System.out.println("\t\t# of credit hours:  " + curCourse.getCreditHours());
                 System.out.println("\t\tLetter grade:  " + curCourse.getLetterGrade());
             }
