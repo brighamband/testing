@@ -1,0 +1,1 @@
+print("Kamusta po kayo?")
