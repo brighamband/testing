@@ -1,1 +1,0 @@
-print("Kamusta po kayo?")
